@@ -1,0 +1,25 @@
+body {
+  background-color: black;
+}
+main {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-evenly;
+  height: 97vh;
+  align-items: center;
+}
+
+.grande {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+.granded {
+  display: flex;
+  align-self: flex-end;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
